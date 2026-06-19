@@ -1,0 +1,8 @@
+#Asigna, al nuevo usuario, al grupo developers y test. Verifica, empleando algún comando,
+#que esto esté correcto.
+
+# Agregar Umerez a los grupos developers y test
+sudo usermod -aG developers,test Umerez
+
+# Mostrar todos los grupos del usuario Umerez
+groups Umerez
