@@ -1,0 +1,12 @@
+#15. Modifica los permisos del archivo texto.txt para que ningún usuario ni grupo pueda editarlo.
+#Verifique que esto.
+#16. Cambia el nombre del archivo texto.txt por dato.csv e imprime el contenido en consola.
+
+# Quitar permisos de escritura a todos
+chmod a-w ~/Documentos/prueba2/texto.txt
+
+mv ~/Documentos/prueba2/texto.txt ~/Documentos/prueba2/dato.csv
+
+ls -l ~/Documentos/prueba2/texto.txt
+
+ls ~/Documentos/prueba2
