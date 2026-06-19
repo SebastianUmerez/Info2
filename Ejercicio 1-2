@@ -1,0 +1,15 @@
+#Del ejercicio anterior, abre el archivo informe.txt en un editor de texto, escribe la frase
+#“Este es mi primer archivo en Linux”, guarda los cambios y muestra su contenido completo
+#en pantalla (consola); después busca dentro de ese archivo la palabra Linux.
+
+# Ir a la carpeta del proyecto
+cd ~/proyecto
+
+# Escribir la frase en el archivo (sobrescribe el contenido anterior)
+echo "Este es mi primer archivo en Linux" > informe.txt
+
+# Mostrar el contenido del archivo
+cat informe.txt
+
+# Buscar la palabra "Linux" dentro del archivo
+grep "Linux" informe.txt
