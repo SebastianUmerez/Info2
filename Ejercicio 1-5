@@ -1,0 +1,16 @@
+#Tras crear dicho usuario (y permaneciendo logueado con lubuntu), el mismo sólo forma
+#parte de su propio grupo (cuyo nombre es el mismo que el del usuario creado, verifica esto
+#con algún comando). Revisa los grupos a los que pertenece el usuario lubuntu y asigna los
+#mismos a el nuevo usuario (no asignes el grupo lubuntu). A continuación ejecuta:
+#sudo chsh -s /bin/bash nombre_de_usuario
+#¿Para qué sirve dicho comando?
+#Cierra sesión e ingresa al nuevo usuario.
+
+# Mostrar los grupos del usuario Umerez
+groups Umerez
+Umerez : Umerez
+# Mostrar los grupos del usuario lubuntu
+groups lubuntu
+lubuntu : lubuntu adm cdrom sudo dip plugdev lpadmin sambashare
+groups Umerez
+grep "^Umerez:" /etc/passwd
