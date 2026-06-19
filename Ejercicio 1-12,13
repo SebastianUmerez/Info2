@@ -1,0 +1,14 @@
+#12. Renombra la carpeta prueba por prueba2. 
+#13. Mueve el archivo backup.sh, que se encuentra en el directorio prueba2, a la carpeta SCRIPT.
+
+# Renombrar la carpeta
+mv ~/Documentos/pruebas ~/Documentos/prueba2
+
+# Mover el script a la carpeta SCRIPT
+mv ~/Documentos/prueba2/backup.sh ~/Descargas/SCRIPT/
+
+# Verificar que el archivo está en SCRIPT
+ls ~/Descargas/SCRIPT
+
+# Verificar que ya no está en prueba2
+ls ~/Documentos/prueba2
