@@ -1,0 +1,15 @@
+#Crea un usuario con tu nombre y asigna alguna contraseña sencilla. Asegurate de emplear un
+#comando que al momento de crear el usuario también cree la carpeta personal del mismo.
+
+# Crear el usuario y su directorio personal (/home/Umerez)
+sudo useradd -m Umerez
+
+# Asignar una contraseña al usuario
+sudo passwd Umerez
+Leticia
+
+# Mostrar información del usuario
+id Umerez
+
+# Comprobar que existe su carpeta personal
+ls -ld /home/Umerez
