@@ -1,0 +1,11 @@
+#En la nueva sesión, crea el grupo developers y test. Verifica, empleando algún comando,
+#que se han creado correctamente.
+
+# Crear grupo developers
+sudo groupadd developers
+
+# Crear grupo test
+sudo groupadd test
+
+# Ver los grupos creados
+grep -E "developers|test" /etc/group
