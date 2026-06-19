@@ -1,0 +1,7 @@
+#Quita tu usuario del grupo test. Verifica.
+
+# Eliminar el usuario Umerez del grupo test
+sudo gpasswd -d Umerez test
+
+# Mostrar los grupos del usuario
+groups Umerez
