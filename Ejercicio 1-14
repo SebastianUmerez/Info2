@@ -1,0 +1,20 @@
+#Crea el archivo texto.txt en la carpeta prueba2, dentro del mismo escribe el siguiente texto:
+#“Los hermanos sean unidos,
+#porque esa es la ley primera.
+#Tengan unión verdadera
+#en cualquier tiempo que sea,
+#porque si entre ellos pelean
+#los devoran los de afuera.”
+
+# Crear el archivo texto.txt dentro de prueba2
+cat > ~/Documentos/prueba2/texto.txt << EOF
+Los hermanos sean unidos,
+porque esa es la ley primera.
+Tengan unión verdadera
+en cualquier tiempo que sea,
+porque si entre ellos pelean
+los devoran los de afuera.
+EOF
+
+#verificar
+cat ~/Documentos/prueba2/texto.txt
