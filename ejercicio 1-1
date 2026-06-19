@@ -1,0 +1,28 @@
+#Dentro de tu home, crea una carpeta llamada proyecto, luego crea tres archivos, en blanco,
+#llamados informe.txt, datos.txt y resumen.txt; haz una copia de informe.txt con el nombre
+#informe_backup.txt, crea una subcarpeta llamada documentos y mueve allí el archivo
+#resumen.txt, y finalmente elimina el archivo datos.txt.
+
+# Ir al directorio personal
+cd ~
+
+# Crear la carpeta proyecto
+mkdir proyecto
+
+# Entrar en la carpeta
+cd proyecto
+
+# Crear los archivos vacíos
+touch informe.txt datos.txt resumen.txt
+
+# Crear una copia de informe.txt
+cp informe.txt informe_backup.txt
+
+# Crear la subcarpeta documentos
+mkdir documentos
+
+# Mover resumen.txt a documentos
+mv resumen.txt documentos/
+
+# Eliminar datos.txt
+rm datos.txt
