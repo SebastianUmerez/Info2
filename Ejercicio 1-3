@@ -1,0 +1,12 @@
+#Partiendo del ejercicio anterior, localiza la carpeta proyecto y realiza una búsqueda
+#recursiva de la palabra “archivo” en todos los archivos de la carpeta proyecto, identificando
+#en cuáles aparece.
+
+# Ir al directorio personal
+cd ~
+
+# Entrar en la carpeta proyecto
+cd proyecto
+
+# Buscar de forma recursiva la palabra "archivo"
+grep -rl "archivo" .
