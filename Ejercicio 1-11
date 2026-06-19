@@ -1,0 +1,14 @@
+#Dentro de la carpeta prueba crea un script backup.sh con el contenido echo 'Backup'.
+#Ejecútalo empleando ./backup.sh (modifica los permisos de ser necesario).
+
+# Entrar en la carpeta pruebas
+cd ~/Documentos/pruebas
+
+# Crear el archivo backup.sh con el contenido solicitado
+echo "echo 'Backup'" > backup.sh
+
+# Dar permisos de ejecución al script
+chmod +x backup.sh
+
+# Ejecutar el script
+./backup.sh
