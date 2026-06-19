@@ -1,0 +1,20 @@
+19. Vuelve a iniciar sesión con el usuario lubuntu y elimina el usuario creado.
+20. Elimina los grupos developers y test.
+
+# Iniciar sesión con el usuario lubuntu
+
+# Eliminar el usuario Umerez y su carpeta personal
+sudo userdel -r Umerez
+
+# Verificar que el usuario fue eliminado
+id Umerez
+
+# Eliminar el grupo developers
+sudo groupdel developers
+
+# Eliminar el grupo test
+sudo groupdel test
+
+# Verificar que los grupos fueron eliminados
+getent group developers
+getent group test
