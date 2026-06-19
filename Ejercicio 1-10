@@ -1,0 +1,11 @@
+#Dentro de las carpetas de tu usuario Documentos y Descargas, crea dos carpetas, pruebas y
+#SCRIPT respectivamente.
+
+# Crear la carpeta pruebas en Documentos y SCRIPT en Descargas
+mkdir ~/Documentos/pruebas ~/Descargas/SCRIPT
+
+# Mostrar el contenido de Documentos
+ls ~/Documentos
+
+# Mostrar el contenido de Descargas
+ls ~/Descargas
