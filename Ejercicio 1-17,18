@@ -1,0 +1,15 @@
+17. Busca en qué línea se encuentra la palabra “tiempo” en el archivo dato.csv
+18. Elimina la carpeta pruebas y SCRIPT.
+
+# La opción -n muestra el número de línea donde se encontró la coincidencia
+grep -n "tiempo" ~/Documentos/prueba2/dato.csv
+
+# Eliminar la carpeta prueba2 y todo su contenido de forma recursiva
+rm -r ~/Documentos/prueba2
+
+# Eliminar la carpeta SCRIPT y todo su contenido de forma recursiva
+rm -r ~/Descargas/SCRIPT
+
+# Verificar que las carpetas fueron eliminadas correctamente
+ls ~/Documentos
+ls ~/Descargas
